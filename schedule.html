@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule - YABUS FITNESS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">YABUS FITNESS</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="membership.html">Membership</a>
+                <a href="schedule.html" class="active">Schedule</a>
+                <a href="coaches.html">Coaches</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <video autoplay muted loop playsinline>
+            <source src="image/videoplayback.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container">
+            <h1>Class Schedule</h1>
+            <p>Find the perfect class for your fitness goals</p>
+        </div>
+    </section>
+
+    <!-- Schedule Filter -->
+    <section class="schedule-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-day="all">All Days</button>
+                <button class="filter-btn" data-day="monday">Monday</button>
+                <button class="filter-btn" data-day="tuesday">Tuesday</button>
+                <button class="filter-btn" data-day="wednesday">Wednesday</button>
+                <button class="filter-btn" data-day="thursday">Thursday</button>
+                <button class="filter-btn" data-day="friday">Friday</button>
+                <button class="filter-btn" data-day="saturday">Saturday</button>
+                <button class="filter-btn" data-day="sunday">Sunday</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Schedule -->
+    <section class="schedule">
+        <div class="container">
+            <div class="schedule-grid">
+                <!-- Monday -->
+                <div class="schedule-card" data-day="monday">
+                    <div class="schedule-day">Monday</div>
+                    <div class="schedule-time">6:00 AM - 7:00 AM</div>
+                    <div class="schedule-class">HIIT Training</div>
+                    <div class="schedule-trainer">with John Smith</div>
+                    <div class="schedule-level">Intermediate</div>
+                </div>
+                <div class="schedule-card" data-day="monday">
+                    <div class="schedule-day">Monday</div>
+                    <div class="schedule-time">7:30 AM - 8:30 AM</div>
+                    <div class="schedule-class">Yoga Flow</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+                <div class="schedule-card" data-day="monday">
+                    <div class="schedule-day">Monday</div>
+                    <div class="schedule-time">5:00 PM - 6:00 PM</div>
+                    <div class="schedule-class">CrossFit</div>
+                    <div class="schedule-trainer">with John Smith</div>
+                    <div class="schedule-level">Advanced</div>
+                </div>
+
+                <!-- Tuesday -->
+                <div class="schedule-card" data-day="tuesday">
+                    <div class="schedule-day">Tuesday</div>
+                    <div class="schedule-time">6:00 AM - 7:00 AM</div>
+                    <div class="schedule-class">Strength Training</div>
+                    <div class="schedule-trainer">with Mike Chen</div>
+                    <div class="schedule-level">Intermediate</div>
+                </div>
+                <div class="schedule-card" data-day="tuesday">
+                    <div class="schedule-day">Tuesday</div>
+                    <div class="schedule-time">7:30 AM - 8:30 AM</div>
+                    <div class="schedule-class">Pilates</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+                <div class="schedule-card" data-day="tuesday">
+                    <div class="schedule-day">Tuesday</div>
+                    <div class="schedule-time">6:30 PM - 7:30 PM</div>
+                    <div class="schedule-class">Spin Class</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+
+                <!-- Wednesday -->
+                <div class="schedule-card" data-day="wednesday">
+                    <div class="schedule-day">Wednesday</div>
+                    <div class="schedule-time">6:00 AM - 7:00 AM</div>
+                    <div class="schedule-class">HIIT Training</div>
+                    <div class="schedule-trainer">with John Smith</div>
+                    <div class="schedule-level">Intermediate</div>
+                </div>
+                <div class="schedule-card" data-day="wednesday">
+                    <div class="schedule-day">Wednesday</div>
+                    <div class="schedule-time">9:00 AM - 10:00 AM</div>
+                    <div class="schedule-class">Strength Training</div>
+                    <div class="schedule-trainer">with Mike Chen</div>
+                    <div class="schedule-level">Intermediate</div>
+                </div>
+                <div class="schedule-card" data-day="wednesday">
+                    <div class="schedule-day">Wednesday</div>
+                    <div class="schedule-time">8:00 PM - 9:00 PM</div>
+                    <div class="schedule-class">Boxing</div>
+                    <div class="schedule-trainer">with Mike Chen</div>
+                    <div class="schedule-level">Advanced</div>
+                </div>
+
+                <!-- Thursday -->
+                <div class="schedule-card" data-day="thursday">
+                    <div class="schedule-day">Thursday</div>
+                    <div class="schedule-time">6:00 AM - 7:00 AM</div>
+                    <div class="schedule-class">Yoga Flow</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+                <div class="schedule-card" data-day="thursday">
+                    <div class="schedule-day">Thursday</div>
+                    <div class="schedule-time">7:30 AM - 8:30 AM</div>
+                    <div class="schedule-class">Pilates</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+                <div class="schedule-card" data-day="thursday">
+                    <div class="schedule-day">Thursday</div>
+                    <div class="schedule-time">5:00 PM - 6:00 PM</div>
+                    <div class="schedule-class">CrossFit</div>
+                    <div class="schedule-trainer">with John Smith</div>
+                    <div class="schedule-level">Advanced</div>
+                </div>
+
+                <!-- Friday -->
+                <div class="schedule-card" data-day="friday">
+                    <div class="schedule-day">Friday</div>
+                    <div class="schedule-time">6:00 AM - 7:00 AM</div>
+                    <div class="schedule-class">Strength Training</div>
+                    <div class="schedule-trainer">with Mike Chen</div>
+                    <div class="schedule-level">Intermediate</div>
+                </div>
+                <div class="schedule-card" data-day="friday">
+                    <div class="schedule-day">Friday</div>
+                    <div class="schedule-time">9:00 AM - 10:00 AM</div>
+                    <div class="schedule-class">HIIT Training</div>
+                    <div class="schedule-trainer">with John Smith</div>
+                    <div class="schedule-level">Intermediate</div>
+                </div>
+                <div class="schedule-card" data-day="friday">
+                    <div class="schedule-day">Friday</div>
+                    <div class="schedule-time">6:30 PM - 7:30 PM</div>
+                    <div class="schedule-class">Spin Class</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+
+                <!-- Saturday -->
+                <div class="schedule-card" data-day="saturday">
+                    <div class="schedule-day">Saturday</div>
+                    <div class="schedule-time">8:00 AM - 9:00 AM</div>
+                    <div class="schedule-class">Yoga Flow</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+                <div class="schedule-card" data-day="saturday">
+                    <div class="schedule-day">Saturday</div>
+                    <div class="schedule-time">9:30 AM - 10:30 AM</div>
+                    <div class="schedule-class">Strength Training</div>
+                    <div class="schedule-trainer">with Mike Chen</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+                <div class="schedule-card" data-day="saturday">
+                    <div class="schedule-day">Saturday</div>
+                    <div class="schedule-time">11:00 AM - 12:00 PM</div>
+                    <div class="schedule-class">Boxing</div>
+                    <div class="schedule-trainer">with Mike Chen</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+
+                <!-- Sunday -->
+                <div class="schedule-card" data-day="sunday">
+                    <div class="schedule-day">Sunday</div>
+                    <div class="schedule-time">9:00 AM - 10:00 AM</div>
+                    <div class="schedule-class">Yoga Flow</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+                <div class="schedule-card" data-day="sunday">
+                    <div class="schedule-day">Sunday</div>
+                    <div class="schedule-time">10:30 AM - 11:30 AM</div>
+                    <div class="schedule-class">Pilates</div>
+                    <div class="schedule-trainer">with Sarah Johnson</div>
+                    <div class="schedule-level">All Levels</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Class Types Info -->
+    <section class="class-types">
+        <div class="container">
+            <h2>Class Types</h2>
+            <div class="class-types-grid">
+                <div class="class-type-card">
+                    <i class="fas fa-fire"></i>
+                    <h3>HIIT Training</h3>
+                    <p>High-intensity interval training for maximum calorie burn and cardiovascular fitness.</p>
+                </div>
+                <div class="class-type-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Strength Training</h3>
+                    <p>Build muscle and increase strength with progressive resistance training.</p>
+                </div>
+                <div class="class-type-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Yoga Flow</h3>
+                    <p>Improve flexibility, balance, and mindfulness with flowing yoga sequences.</p>
+                </div>
+                <div class="class-type-card">
+                    <i class="fas fa-bicycle"></i>
+                    <h3>Spin Class</h3>
+                    <p>High-energy cycling workouts for cardiovascular fitness and endurance.</p>
+                </div>
+                <div class="class-type-card">
+                    <i class="fas fa-fist-raised"></i>
+                    <h3>Boxing</h3>
+                    <p>Learn boxing techniques while getting an intense full-body workout.</p>
+                </div>
+                <div class="class-type-card">
+                    <i class="fas fa-circle"></i>
+                    <h3>Pilates</h3>
+                    <p>Core-focused exercises to improve posture, flexibility, and strength.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">YABUS FITNESS</div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 YABUS FITNESS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Schedule filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const scheduleCards = document.querySelectorAll('.schedule-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const selectedDay = button.getAttribute('data-day');
+
+                scheduleCards.forEach(card => {
+                    if (selectedDay === 'all' || card.getAttribute('data-day') === selectedDay) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
